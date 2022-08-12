@@ -1,0 +1,44 @@
+{"intents":  [
+  {"tag":  "Greetings",
+  "patterns": ["hello" , "hey", "hi" ,"goodday" , "Whatsup" , "how is it going?"],
+    "responses": ["hello!" , "hey!", "hi", "What can i do for you?"]
+  },
+  {"tag":  "goodbye",
+  "patterns": ["bye" , "see you", "good bye" ,"i am leaving" , "have a good day" ],
+    "responses": ["Sad to see you go:" , "Talk to you later!", "Goodbye!"]
+
+    },
+
+  {"tag":  "age",
+  "patterns": ["what is your age?" , "how old are you?", "age?" ,"how old?"],
+    "responses": ["22 years old" , "i am 22 years old"]
+    },
+  {"tag":  "Name",
+  "patterns": ["What is your name?" , "name?", "What should i call you" ,"Can you tell me your name" ],
+    "responses": ["You can call me Bot!" , "I am bot!", "i am the Chatbot"]
+    },
+  {"tag":  "Shop",
+  "patterns": ["id like to buy you a gift" , "what do you reccommend from the shop"],
+    "responses": ["An iphone 13" , "headphones"]
+    },
+  {"tag":  "Study",
+  "patterns": ["What qualification do you have" , "What are your interest?"],
+    "responses": ["Computer science " , "I like to code"]
+    },
+   {"tag":  "create_note",
+  "patterns": ["Please create a note for me" , "New note" , "Create a note"],
+    "responses": ["Your note has been created" , "Done!"]
+    },
+  {"tag":  "add_todo",
+  "patterns": ["I want to add to my list" , "New list" , "add to my list"],
+    "responses": ["Your note has been created" , "Done!"]
+    },
+  {"tag":  "show_list",
+  "patterns": ["Please can i see my list" , "show my list" , "what is on my list"],
+    "responses": ["Your note has been created" , "Done!"]
+    },
+  {"tag":  "Exit",
+  "patterns": ["Bye" , "Stop" , "Quit" , "Goodbye" , "I have to go"],
+    "responses": ["Till next time " , "Thank you for using my Voice command"]
+    }
+]}
